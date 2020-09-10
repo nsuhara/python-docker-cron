@@ -551,7 +551,7 @@ busybox crond -l 8 -L /dev/stderr -f
 ### crontab
 
 ```crontab
-*/2 * * * * /code/qiita.sh  >> /var/log/cron.log 2>&1
+0 23 * * * /code/qiita.sh  >> /var/log/cron.log 2>&1
 ```
 
 ### qiita.sh
