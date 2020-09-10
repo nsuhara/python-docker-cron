@@ -1,0 +1,15 @@
+export PYTHONPATH='app/'
+export TZ='Asia/Tokyo'
+
+export QIITA_PAGE='1'
+export QIITA_PER_PAGE='100'
+export QIITA_URL_ITEM='qiita.com/api/v2/items'
+export QIITA_URL_LIST='qiita.com/api/v2/authenticated_user/items'
+
+export OUTPUT='output_db'
+
+export SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://postgres:postgres@localhost:5432/qiita'
+export SQLALCHEMY_ECHO='1'
+export SQLALCHEMY_POOL_SIZE='5'
+export SQLALCHEMY_MAX_OVERFLOW='10'
+export SQLALCHEMY_POOL_TIMEOUT='30'
